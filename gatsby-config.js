@@ -46,7 +46,11 @@ let gatsbyPlugins = [
   },
 	{
 		resolve: 'gatsby-source-ghost',
-		options: ghostConfig.production,
+		options: {
+      apiUrl: process.env.GHOST_API_URL,
+      contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+			version: 'v3',
+		}
 	},
 ];
 
