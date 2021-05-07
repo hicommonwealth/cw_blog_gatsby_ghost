@@ -44,6 +44,10 @@ let gatsbyPlugins = [
       siteConfig: siteConfig,
     },
   },
+	{
+		resolve: 'gatsby-source-ghost',
+		options: ghostConfig,
+	},
 ];
 
 if (process.env.SEGMENT_KEY) {
