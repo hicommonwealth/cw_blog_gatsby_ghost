@@ -14,7 +14,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-ghost": "^1.0.0",
     "eslint-plugin-react": "^7.19.0",
-    "gatsby": "2.21.1",
+    "gatsby": "^2.25.0",
     "gh-pages": "^2.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
