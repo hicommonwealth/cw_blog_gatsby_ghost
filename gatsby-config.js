@@ -38,7 +38,7 @@ try {
 // setting up plugins
 let gatsbyPlugins = [
   {
-    resolve: `@draftbox-co/gatsby-ghost-novela-theme`,
+    resolve: `@narative/gatsby-theme-novela`,
     options: {
       ghostConfig: ghostConfig,
       siteConfig: siteConfig,
