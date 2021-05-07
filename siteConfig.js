@@ -2,6 +2,7 @@ module.exports = {
   siteUrl: "https://ghost-novela-preview.draftbox.co",
   postsPerPage: 12,
   siteTitleMeta: "Built with Draftbox",
+  siteMetadata: "Grant me sweet release from this mortal plane",
   siteDescriptionMeta:
     "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding.",
   shareImageWidth: 1000,
