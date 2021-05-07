@@ -133,5 +133,10 @@ if (process.env.GATSBY_OLARK_ID) {
 }
 
 module.exports = {
+  siteMetadata: {
+    title: siteConfig.siteTitleMeta,
+    siteUrl: siteConfig.siteUrl,
+    description: siteConfig.siteDescriptionMeta,
+  },
   plugins: gatsbyPlugins,
 };
