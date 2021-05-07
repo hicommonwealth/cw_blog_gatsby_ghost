@@ -46,7 +46,7 @@ let gatsbyPlugins = [
   },
 	{
 		resolve: 'gatsby-source-ghost',
-		options: ghostConfig,
+		options: ghostConfig.production,
 	},
 ];
 
